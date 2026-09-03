@@ -14,7 +14,7 @@ if __name__ == "__main__":
     num3=  int(sys.argv[3])
     result = total(num1, num2,num3)
     result1=avg(num1,num2,num3)
-    result2=mul_result1(num1,num2,num3)
+    result2=result1(num1,num2,num3)
     print("=================================")
     print("Student details")
     print("=================================")
